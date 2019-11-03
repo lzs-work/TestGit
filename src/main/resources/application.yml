@@ -1,0 +1,26 @@
+
+server:
+  port: 8001
+spring:
+  application:
+    name: eureka-server-8001
+  security:
+    user:
+      name: root
+      password: 123456
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+  server:
+    enable-self-preservation: false
+    eviction-interval-timer-in-ms: 5000
+    use-read-only-response-cache: false
+
+
+
+
+
+
